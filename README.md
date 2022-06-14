@@ -28,5 +28,5 @@ To run the simulations, run the bash script `rbm_sample.sh`
 ## Experiments on UAI
 
 Data can be collected from [link](http://sli.ics.uci.edu/~ihler/uai-data/).
-To run the simulations, follow the same procedure for Ising
+To run the simulations, follow the same procedure for experiments on Ising
 

@@ -25,7 +25,7 @@ To evaluate the sampler, run the script `eval.sh`
 Code adapted from [Gibbs-With-Gradients, ICML 2021](https://github.com/wgrathwohl/GWG_release).
 To run the simulations, run the bash script `rbm_sample.sh`
 
-## Experiments on UAI
+## Experiments on UAI Data
 
 Data can be collected from [link](http://sli.ics.uci.edu/~ihler/uai-data/).
 To run the simulations, follow the same procedure for experiments on Ising

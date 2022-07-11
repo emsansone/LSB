@@ -1,4 +1,6 @@
 We are dealing with discrete distributions defined over a large support of binary quantities
+theme: jekyll-theme-cayman
+
 Such that the normalisation constant P cannot be computed in an exact way.
 Such distributions arise in the context of energy-based and probabilistic graphical models 
 in application domains dealing with text, graphs or tabular data.

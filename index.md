@@ -1,4 +1,10 @@
-# Motivation and Problem
+<script
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+  type="text/javascript">
+</script>
+
+# Accelerating MCMC Through Mutual Information
+## Motivation and Problem
 <div style="text-align: justify">We are dealing with distributions defined over a high-dimensional discrete support arising in the context of energy-based and probabilistic graphical models in application domains dealing with text, graphs or tabular data. In this work, we focus on sampling from such distributions using Markov Chain Monte Carlo methods. These methods iteratively propose a sample to the oracle according to a predefined proposal distribution. The oracle provides an evaluation feedback which is later used by the sampler to
 refine subsequent queries. The iterative process can be visualized in the following figure:</div>
 <br />
@@ -9,7 +15,7 @@ refine subsequent queries. The iterative process can be visualized in the follow
 <div style="text-align: justify">Most of previous works have focused on the continuous setting devising objectives, including global criteria for density estimation, thus computing a distance between the proposal and the target distribution and correlation-based criteria to reduce the linear dependence between consecutive samples.</div>
 <br />
 
-# Contribution
+## Contribution
 <div style="text-align: justify">In this work, we propose a more general criterion based on mutual information and use it to assess 
 the statistical dependence between consecutive samples. This is the first time that the mutual information criterion is used in the context of MCMC. Furthermore, we propose two parametrizations for a recent sampler based on locally balanced proposals. Finally, we combine these two results to learn the proposal distribution by minimising the mutual information.</div>
 

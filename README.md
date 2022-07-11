@@ -1,6 +1,7 @@
 # Readme
 
-Official implementation of the paper "LSB: Local Self-Balancinng MCMC in Discrete Spaces" accepted for presentation at ICML 2022.
+Official implementation of the paper [LSB: Local Self-Balancinng MCMC in Discrete Spaces](https://proceedings.mlr.press/v162/sansone22a.html) accepted for presentation at ICML 2022.
+
 
 ## Prerequisites
 Checking/Installing prerequisite libraries:
@@ -29,4 +30,18 @@ To run the simulations, run the bash script `rbm_sample.sh`
 
 Data can be collected from [link](http://sli.ics.uci.edu/~ihler/uai-data/).
 To run the simulations, follow the same procedure for experiments on Ising
+
+## Citation
+
+Please cite our paper as:
+
+```
+@inproceedings{sansone2022lsb,
+	title = {{LSB}: Local Self-Balancing {MCMC} in Discrete Spaces},
+	author = {Sansone, Emanuele},
+	booktitle = {Proceedings of the 39th International Conference on Machine Learning},
+	pages = {19205--19220},
+	year = {2022},
+}
+```
 

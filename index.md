@@ -1,31 +1,19 @@
-We are dealing with discrete distributions defined over a large support of binary quantities
-theme: jekyll-theme-cayman
+# Motivation and Problem
+<div style="text-align: justify">We are dealing with distributions defined over a high-dimensional discrete support arising in the context of energy-based and probabilistic graphical models in application domains dealing with text, graphs or tabular data. In this work, we focus on sampling from such distributions using Markov Chain Monte Carlo methods. These methods iteratively propose a sample to the oracle according to a predefined proposal distribution. The oracle provides an evaluation feedback which is later used by the sampler to
+refine subsequent queries. The iterative process can be visualized in the following figure:</div>
+<br />
+<center><img src="img/MCMC.png" width="400" alt="Overview of MCMC"></center>
+<br />
+<div style="text-align: justify">MCMC typically requires a large number of interactions with the oracle in order to produce samples adhering with the target distribution $p$. The oracle can therefore incur in large costs, especially if the evaluation function $\tilde{p}$ is complex or expensive to evaluate. MCMC performance are strongly dependent on the choice of the proposal distribution. Therefore, <b>how can we learn a discrete proposal to reduce the number of oracle evaluations?</b></div>
+<br />
+<div style="text-align: justify">Most of previous works have focused on the continuous setting devising objectives, including global criteria for density estimation, thus computing a distance between the proposal and the target distribution and correlation-based criteria to reduce the linear dependence between consecutive samples.</div>
+<br />
 
-Such that the normalisation constant P cannot be computed in an exact way.
-Such distributions arise in the context of energy-based and probabilistic graphical models 
-in application domains dealing with text, graphs or tabular data.
+# Contribution
+<div style="text-align: justify">In this work, we propose a more general criterion based on mutual information and use it to assess 
+the statistical dependence between consecutive samples. This is the first time that the mutual information criterion is used in the context of MCMC. Furthermore, we propose two parametrizations for a recent sampler based on locally balanced proposals. Finally, we combine these two results to learn the proposal distribution by minimising the mutual information.</div>
 
-In this work, we focus on Markov Chain Monte Carlo methods. These methods iteratively
-propose a sample to the oracle through a proposal distribution Q and an acceptance function A.
-The oracle provides an evaluation feedback which can be later used by the sampler to
-refine subsequent queries.
-
-MCMC typically requires a large number of interactions with the oracle in order to produce 
-samples adhering with the target distribution p. The oracle can therefore incur in large costs, 
-especially if function p_tilde is complex or expensive to evaluate.
-
-MCMC performance are strongly dependent on the choice of the proposal distribution. Therefore, 
-how can we learn a discrete proposal to reduce the number of oracle evaluations?
-
-Most of previous works have focused on the continuous setting devising objectives,
-Including global criteria for density estimation, thus computing a distance between the proposal Q and 
-the target p and correlation-based criteria to reduce the linear dependence between consecutive samples.
-
-In this work, we propose a more general criterion based on mutual information and use it to assess 
-the statistical dependence between consecutive samples. This is the first time that the mutual information 
-criterion is used in the context of MCMC.
-Furthermore, we propose two parametrizations for a recent sampler based on locally balanced proposals
-Finally, we combine these two results to learn the proposal distribution by minimising the mutual information.
+# INDEX
 
 Let’s start by recalling the definition of locally balanced proposals.
 Specifically the proposal distribution can be written in the following form, where the indicator function

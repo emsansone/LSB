@@ -1,11 +1,6 @@
-<script
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-  type="text/javascript">
-</script>
-
-# Accelerating MCMC Through Mutual Information
+# Accelerating MCMC Through Mutual Information (ICML 2022)
 ## Motivation and Problem
-<div style="text-align: justify">We are dealing with distributions defined over a high-dimensional discrete support arising in the context of energy-based and probabilistic graphical models in application domains dealing with text, graphs or tabular data. In this work, we focus on sampling from such distributions using Markov Chain Monte Carlo methods. These methods iteratively propose a sample to the oracle according to a predefined proposal distribution. The oracle provides an evaluation feedback which is later used by the sampler to
+<div style="text-align: justify">We are dealing with distributions defined over a high-dimensional discrete support arising in the context of energy-based and probabilistic graphical models in application domains involving text, graphs or tabular data. In this work, we focus on sampling from such distributions using Markov Chain Monte Carlo methods. These methods iteratively propose a sample to a target oracle according to a predefined proposal distribution. The oracle provides an evaluation feedback which is later used by the sampler to
 refine subsequent queries. The iterative process can be visualized in the following figure:</div>
 <br />
 <center><img src="img/MCMC.png" width="400" alt="Overview of MCMC"></center>

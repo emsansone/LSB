@@ -1,3 +1,2 @@
 theme: minima
-footer_text: > # Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  <a href="https://emsansone.github.io/" target="_blank">Author: Emanuele Sansone</a>.
+author: Emanuele Sansone

@@ -54,6 +54,7 @@ truth ones. Also in this case, we observe that the proposed adaptation strategy 
 ```
 <br />
 
+
 ## References
 <div style="text-align: justify">[1] G. Zanella. Informed Proposals for Local MCMC in Discrete Spaces. Journal of the
 American Statistical Association. 2020</div>

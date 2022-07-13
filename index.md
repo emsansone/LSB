@@ -1,4 +1,3 @@
-<br />
 
 # Accelerating MCMC Through Mutual Information (ICML 2022)
 ## Motivation and Problem
@@ -38,8 +37,8 @@ truth ones. Also in this case, we observe that the proposed adaptation strategy 
 <br />
 
 ## Additional Information
-<div style="text-align: justify">Chekout the [Paper](https://proceedings.mlr.press/v162/sansone22a.html) for further information about technical details and experiments.</div>
-<div style="text-align: justify">Code is available on [GitHub](https://github.com/emsansone/LSB).</div>
+<div style="text-align: justify">Checkout the <a href="https://proceedings.mlr.press/v162/sansone22a.html">Paper</a> for further information about technical details and experiments.</div>
+<div style="text-align: justify">Checkout the <a href="https://github.com/emsansone/LSB">Code</a> for implementation details and to replicate the experiments.</div>
 <br />
 
 ## References

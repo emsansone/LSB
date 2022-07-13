@@ -42,19 +42,6 @@ truth ones. Also in this case, we observe that the proposed adaptation strategy 
 <div style="text-align: justify">Checkout the <a href="https://github.com/emsansone/LSB">Code</a> for implementation details and to replicate the experiments.</div>
 <br />
 
-## Bibtex
-```
-@inproceedings{sansone2022lsb,
-	title = {{LSB}: Local Self-Balancing {MCMC} in Discrete Spaces},
-	author = {Sansone, Emanuele},
-	booktitle = {Proceedings of the 39th International Conference on Machine Learning},
-	pages = {19205--19220},
-	year = {2022},
-}
-```
-<br />
-
-
 ## References
 <div style="text-align: justify">[1] G. Zanella. Informed Proposals for Local MCMC in Discrete Spaces. Journal of the
 American Statistical Association. 2020</div>

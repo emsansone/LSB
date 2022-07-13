@@ -1,3 +1,4 @@
+<br />
 # Accelerating MCMC Through Mutual Information (ICML 2022)
 ## Motivation and Problem
 <div style="text-align: justify">We are dealing with distributions defined over a high-dimensional discrete support arising in the context of energy-based and probabilistic graphical models in application domains involving text, graphs or tabular data. In this work, we focus on sampling from such distributions using Markov Chain Monte Carlo methods. These methods iteratively propose a sample to a target oracle according to a predefined proposal distribution. The oracle provides an evaluation feedback which is later used by the sampler to

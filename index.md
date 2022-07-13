@@ -1,3 +1,4 @@
+<title>LSB: Local Self-Balancing MCMC in Discrete Spaces</title>
 
 # Accelerating MCMC Through Mutual Information (ICML 2022)
 ## Motivation and Problem
